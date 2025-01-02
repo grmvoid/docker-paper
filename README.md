@@ -6,10 +6,10 @@
   `linux/amd64`, `linux/arm64`
 
 - **Maintained by**:  
-  [sxbrsky](https://github.com/sxbrsky)
+  [grmvoid](https://github.com/grmvoid)
 
 - **Where to file issues**:    
-  [https://github.com/sxbrsky/docker-paper/issues](https://github.com/sxbrsky/docker-paper/issues?q=)
+  [https://github.com/grmvoid/docker-paper/issues](https://github.com/grmvoid/docker-paper/issues?q=)
 
 ## Supported tags and respective `Dockerfile` links
 
@@ -20,7 +20,7 @@
 ```yaml
 services:
     paper:
-        image: sxbrsky/paper:1.21.3-82
+        image: grmvoid/paper:1.21.3-82
         restart: always
         ports:
             - "25565:25565/udp"

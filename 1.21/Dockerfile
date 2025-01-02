@@ -11,13 +11,13 @@ ENV JAVA_OPTS=""
 ENV EULA="false"
 
 LABEL org.opencontainers.image.base.name="docker.io/library/alpine:3.21" \
-      org.opencontainers.image.description="Application packaged by sxbrsky" \
-      org.opencontainers.image.documentation="https://github.com/sxbrsky/docker-paper/tree/master/README.md" \
+      org.opencontainers.image.description="Application packaged by grmvoid" \
+      org.opencontainers.image.documentation="https://github.com/grmvoid/docker-paper/tree/master/README.md" \
       org.opencontainers.image.licenses="MIT" \
       org.opencontainers.image.ref.name="${PAPER_VERSION}-${PAPER_BUILD}" \
-      org.opencontainers.image.source="https://github.com/sxbrsky/docker-paper/tree/master/1.21" \
+      org.opencontainers.image.source="https://github.com/grmvoid/docker-paper/tree/master/1.21" \
       org.opencontainers.image.title="paper" \
-      org.opencontainers.image.vendor="sxbrsky" \
+      org.opencontainers.image.vendor="grmvoid" \
       org.opencontainers.image.version="${PAPER_VERSION}-${PAPER_BUILD}"
 
 RUN set -eux; \
