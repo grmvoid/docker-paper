@@ -1,7 +1,7 @@
 FROM alpine:3.21
 
-ARG PAPER_BUILD="82"
-ARG PAPER_VERSION="1.21.3"
+ARG PAPER_BUILD="1"
+ARG PAPER_VERSION="1.21.4"
 ARG PAPER_URL="https://api.papermc.io/v2/projects/paper/versions/${PAPER_VERSION}/builds/${PAPER_BUILD}/downloads/paper-${PAPER_VERSION}-${PAPER_BUILD}.jar"
 
 ENV PAPER_JAR="paper-${PAPER_VERSION}-${PAPER_BUILD}.jar"

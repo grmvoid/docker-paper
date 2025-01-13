@@ -13,14 +13,14 @@
 
 ## Supported tags and respective `Dockerfile` links
 
-- [`1.21.3-82`, `1.21.3`, `1.21`](https://github.com/grmvoid/docker-paper/blob/master/1.21/Dockerfile)
+- [`1.21.4-1`, `1.21.4`, `1.21`](https://github.com/grmvoid/docker-paper/blob/master/1.21/Dockerfile)
 
 ## How to use this image
 
 ```yaml
 services:
     paper:
-        image: grmvoid/paper:1.21.3-82
+        image: grmvoid/paper:1.21.3-83
         restart: always
         ports:
             - "25565:25565/udp"
