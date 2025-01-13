@@ -13,7 +13,7 @@
 
 ## Supported tags and respective `Dockerfile` links
 
-- [`1.21.4-7`, `1.21.4`, `1.21`](https://github.com/grmvoid/docker-paper/blob/b0bb00c65c2e0e66ea12b3247fd820fcff2b706e/1.21/Dockerfile)
+- [`1.21.4-8`, `1.21.4`, `1.21`](https://github.com/grmvoid/docker-paper/blob/ce8a200c213a5703e5e9731fa764da82c114cb4c/1.21/Dockerfile)
 
 ## How to use this image
 
